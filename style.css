@@ -1,0 +1,1287 @@
+  @media only screen and (min-width: 450px) and (max-width: 1320px){  
+ body{ 
+ font-size: 30px; 
+ }  
+  }   
+*{
+margin: 0;
+padding: 0;
+font-family:Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+}
+.container{
+margin: 0;
+padding: 0;
+width: 100%;
+background-color: rgb(235, 232, 232);
+position: relative;
+}
+header{
+position:sticky;
+height: 70px;
+width: 100%;
+top: 0;
+z-index: 1000;
+}
+.navbar {
+height: 70px;
+width: 100%;
+background-color: white;
+color: black;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+}
+.navbar-logo{
+height: 40px;
+width: 110px;
+}
+.logo{
+background-image: url("flipkart_logo.png");
+background-size: cover;
+height: 40px; 
+width: 100%;
+}
+.border{
+border: 2px solid transparent;
+}
+.nav-search{
+display: flex;
+justify-content: space-evenly;
+background-color: rgb(204, 234, 247);
+width: 520px;
+height: 40px;
+border-radius: 4px;
+}
+.Search-icon{
+    width: 45px;
+    padding: 6px 6px 6px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(160, 157, 157);
+    background-color:rgb(204, 234, 247);
+    font-size: 1.2rem;
+    border-top-left-radius: 4px; 
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+    }
+.search-input{
+width: 100%; 
+font-size: 1rem;
+background-color: rgb(204, 234, 247); 
+outline: none;
+border: none;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+.nav-login{
+height: 40px;
+width: 70px;
+display: flex;
+align-items: center;
+margin: 0 10px;
+}
+.login-icon{
+margin: 0 2px;
+}
+.nav-login button{
+border: none;
+width: 50px;
+padding: 2px 4px;
+font-size: 16px;
+background-color: white; 
+}
+.chevron-icon{
+width: 8px;
+height: 8px;
+margin: 0 0 8px 0;
+font-size: small;
+cursor: pointer;
+}
+.nav-cart{
+height: 100%;
+display: flex;
+align-items: center;
+font-size: 16px;
+font-weight: 500px;
+}
+.nav-become-seller{
+height: 100%;
+display: flex;
+align-items: center;
+font-size: 16px;
+font-weight: 500px;
+}
+/* main */
+main {
+position: relative;
+}
+.sec-1{
+width: 100%;
+height: 124px;
+margin: 10px 0 10px 0;
+background-color: white;
+position: relative;
+}
+.sec-1-container{
+width: 100%;
+margin: 0;
+height: 100%;
+display: flex;
+align-items: center; 
+justify-content: space-evenly;  
+position: relative; 
+}
+.sec-1-item-1{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+font-weight: 500px;
+}
+.sec-1-item-2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500px;
+}
+.sec-1-item-3{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+font-weight: 500px;
+}
+.sec-1-item-4{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+font-weight: 500px;
+}
+.sec-1-item-5{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+font-weight: 500px;
+}
+.sec-1-item-6{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+font-weight: 500px;
+}
+.sec-1-item-7{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+font-weight: 500px;
+}
+.sec-1-item-8{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+font-weight: 500px;
+}
+.sec-1-item-9{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+font-weight: 500px;
+}
+.sec-1-item-10{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+font-weight: 500px;
+}
+.sec-2-container{
+margin: 10px 14px 10px 10px;
+height: 220px;
+background-image: url('https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/f15976713215171a.jpg?q=20');
+background-size: cover;
+background-position: center;
+position: relative;
+}
+/* .pics{ 
+width: 1200px;
+}
+.carousel-inner{
+position: relative;
+ } */
+.slide{  
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.left-slide{
+height: 60px;
+width: 38px;
+color: rgb(153, 148, 148);
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.right-slide{
+height: 60px;
+width: 38px;
+color: rgb(153, 148, 148);
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+ } 
+.sec-3-container{
+display: flex;
+flex-direction: row;
+position: relative;
+}
+.premium-sec1{
+margin: 2px 0 10px 8px;
+height: 320px;
+width: 1090px;
+border: none;
+background-color: white;
+position: relative;
+}
+.premium-left{
+height: 60px;
+width: 1060px;
+margin-bottom: 16px;
+display: flex;
+align-items: center;
+justify-content:space-between;
+background-color: white;
+}
+.premium-header{
+margin: 0 0 0 18px;
+}
+.premium-right{
+margin: 6px 0 6px 6px;
+height: 30px;
+width: 30px;
+background-color: blue;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+.i-i-icon{
+color: white;
+}
+.product-group{
+height: 240px;
+width: 1000px;
+margin-left: 4px;
+padding: 0 0 0 12px;
+display: flex;
+flex-direction: row;
+background-color: white;
+justify-content: space-between;
+}
+.product1{
+height: 220px;
+width: 190px;
+margin: auto;
+padding-left:0 4px 0 4px;
+border: 1px solid rgb(167, 162, 162);
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.productimg1{
+ background-size: cover;
+ margin-bottom: 10px;
+ padding-bottom: 18px;
+ background-position: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: 500px;
+ background-repeat: no-repeat;
+ object-fit: contain;
+}
+.productinfo1{
+margin-bottom: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+}
+.info1.b{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 10px;
+}
+.product2{
+ height: 220px;
+ width: 190px;
+ margin: auto;
+ padding-left: 0 4px 0 4px;
+ border: 1px solid rgb(167, 162, 162);
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.productimg2{
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: 500px;
+ background-repeat: no-repeat;
+ object-fit: cover;
+}
+.productinfo2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 14px;
+}
+.info2.b{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 8px;    
+}
+.product3{
+height: 220px;
+width: 190px;
+margin: auto;
+padding-left:0 4px 0 4px;
+border: 1px solid rgb(167, 162, 162);
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.productimg3{
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 500px;
+background-repeat: no-repeat;
+object-fit: cover;
+}
+.productinfo3{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+}
+.info3.b{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 8px;  
+}
+.product4{
+height: 220px;
+width: 190px;
+margin: auto;
+padding-left:0 4px 0 4px;
+border: 1px solid rgb(167, 162, 162);
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.productimg4{
+background-size: cover;
+background-position: center;
+margin-bottom: 20px;
+padding-bottom: 14px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 500px;
+background-repeat: no-repeat;
+object-fit: cover;
+}
+.productinfo4{
+margin-bottom: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+}
+.info4.b{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 8px; 
+}
+.product5{
+height: 220px;
+width: 190px;
+margin:auto;
+padding-left: 0 4px 0 4px;
+border: 1px solid rgb(167, 162, 162);
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.productimg5{
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 500px;
+background-repeat: no-repeat;
+object-fit: cover;
+}
+.productinfo5{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+}
+.info5.b{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 8px; 
+}
+.premium-sec2{ 
+margin: 2px 8px 10px 2px;
+height: 320px;
+width: 220px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+right: 0;
+} 
+.product-6{ 
+margin-left: 5px;
+width: 100%;
+height: 100%;
+display: flex;
+object-fit: contain;
+ }
+.sec-4-container{
+margin: 12px 12px 14px 10px;
+height: 520px;
+background-color: white;
+position: relative;
+ }  
+.sec-4-nav{
+height: 110px;
+background-image: url('https://rukminim2.flixcart.com/fk-p-flap/1600/140/image/e19216051bebca38.jpg?q=20');
+background-size: cover;
+background-repeat:no-repeat;
+object-fit: cover;
+display: flex;
+align-items: center;
+cursor: pointer;
+ }
+.sec-4-box{
+height: 405px;
+background-color: white;
+display: flex;
+flex-wrap: wrap;
+gap: 5px;
+width: 1320px;
+ }
+.sp1{
+width: 426px;
+height: 200px;
+margin: 0 4px 0 10px;
+background-image: url('https://rukminim1.flixcart.com/fk-p-flap/520/280/image/a0ea8c94320fad9a.png?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+}
+.sp2{
+width: 426px;
+height: 200px;
+margin: 0 4px 0 4px;
+background-image: url('https://rukminim1.flixcart.com/fk-p-flap/520/280/image/ffdf835e3265e325.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+}
+.sp3{
+ width: 426px;
+ height: 200px;
+ margin: 0 4px 0 4px;
+ background-image: url('https://rukminim1.flixcart.com/fk-p-flap/520/280/image/c4a73dc7a16d6ed7.jpg?q=20');
+ background-size: cover;
+ background-repeat: no-repeat;
+ display: block;
+ object-fit: cover;
+ cursor: pointer;
+}
+.sp4{
+width: 426px;
+height: 200px;
+margin: 0 4px 0 9px;
+background-image: url('https://rukminim1.flixcart.com/fk-p-flap/520/280/image/16bcf5e93517a2f8.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+}
+.sp5{
+width: 426px;
+height: 200px;
+margin: 0 4px 0 4px;
+background-image: url('https://rukminim1.flixcart.com/fk-p-flap/520/280/image/94390c9b5166a163.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;  
+cursor: pointer;
+}
+.sp6{
+width: 426px;
+height: 200px;
+margin: 0 4px 0 4px;
+background-image: url('https://rukminim1.flixcart.com/fk-p-flap/520/280/image/4e5fd93c0118e259.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+}
+.sec-5-container{
+margin:12px 12px 14px 10px; 
+height: 230px;
+background-color: white;
+position:relative;
+}
+.sec-5-box{
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 1320px;
+height: 220px;
+position: relative;
+}
+.sc1{
+width: 426px;
+height: 220px;
+margin: auto;
+background-image: url('https://rukminim1.flixcart.com/fk-p-flap/520/280/image/aece35961499104b.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+position: relative;
+}
+.sc2{
+width: 426px;
+height: 220px;
+margin: auto;
+background-image: url('https://rukminim1.flixcart.com/fk-p-flap/520/280/image/37c36a69f0e59b03.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+position: relative;
+}
+.sc3{
+width: 426px;
+height: 220px;
+margin: auto;
+background-image: url('https://rukminim1.flixcart.com/fk-p-flap/520/280/image/18b95d7661113602.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+position: relative;
+}
+.sec-6-container{
+margin:12px 12px 14px 10px; 
+height: 230px;
+background-color: white;
+position: relative;
+}
+.sec-6-box{
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 1320px;
+height: 220px;
+position: relative;
+}
+.sc6-1{
+width: 428px;
+height: 220px;
+margin: 0 4px 0 4px;
+background-image: url('https://rukminim1.flixcart.com/fk-p-flap/520/280/image/3c202aea7e9b51fb.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+position: relative;
+}
+.sc6-2{
+width: 428px;
+height: 220px;
+margin: 0 4px 0 4px;
+background-image: url('https://rukminim1.flixcart.com/fk-p-flap/520/280/image/9b981e850f9ddb0b.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+position: relative;
+}
+.sc6-3{
+width: 428px;
+height: 220px;
+margin: 0 4px 0 4px;
+background-image: url('https://rukminim1.flixcart.com/fk-p-flap/520/280/image/b40f6b49fe96be7a.jpeg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+position: relative;
+}
+.sec-7-container{
+margin: 12px 12px 0 10px;
+height: 340px;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.sec-7-nav{
+margin: 2px 8px 8px 8px;
+height: 50px;
+width: 1300px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sec-7-left{
+height: 45px;
+width: 1300px;
+margin-bottom: 2px;
+display: flex;
+align-items: center;
+justify-content:flex-start;
+background-color: white;
+}
+.sec-7header{
+margin: 0 0 0 18px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.sec7-box{
+height: 285px;
+width: 1300px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.s7-1{
+width: 422px;
+height: 283px;
+margin: 0 4px 0 4px;
+background-image: url('https://rukminim2.flixcart.com/fk-p-flap/450/280/image/ea6246119d55632b.jpeg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+position: relative;
+}
+.s7-2{
+width: 422px;
+height: 283px;
+margin: 0 4px 0 4px;
+background-image: url('https://rukminim2.flixcart.com/fk-p-flap/450/280/image/6cb41fb0c0b4d676.jpeg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+position: relative;
+}
+.s7-3{
+width: 422px;
+height: 283px;
+margin: 0 4px 0 4px;
+background-image: url('https://rukminim2.flixcart.com/fk-p-flap/450/280/image/64bfeb4527678986.jpeg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+position: relative;
+}
+.s8-c{
+display:flex;
+flex-direction: row;
+position: relative;
+width: 100%;
+}
+.sec-8-container{
+margin-left: 12px;
+background-color: white;
+height: 600px;
+width: 500px;
+display: flex;
+flex-wrap: wrap;
+position: relative;
+}
+.s8-b1{
+height: 60px;
+width: 500px;
+position: relative;
+}
+.nav-8{
+height: 60px;
+width: 480px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.s8-header{
+margin: 0 0 0 8px;
+}
+.nav8-right{
+margin: 6px 0 6px 6px;
+height: 25px;
+width: 25px;
+background-color: blue;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+.s8-icon{
+color: white;
+}
+.sec-8-b1{
+height: 540px;
+width: 500px;
+display: flex;
+flex-wrap: wrap;
+}
+.s8-p1{
+height: 250px;
+width: 220px;
+margin: 0 4px 4px 4px;
+border: 1px gray;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.s8p1-img{
+height: 180px;
+width: 210px;
+margin: 0;
+background-size: cover;
+object-fit: cover;
+display: flex;
+justify-content: center;
+}
+.s8p1-i1{
+height: 28px;
+width: 210px;
+font-size: 16px;
+}
+.s8p1-i2{
+height: 28px;
+width: 210px;
+color:green;
+}
+.s8-p2{
+height: 250px;
+width: 220px;
+border: 1px gray;
+margin: 0 4px 4px 4px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.s8p2-img{
+height: 100%;
+width: 100%;
+margin: 0;
+background-size: cover;
+object-fit: cover;
+display: flex;
+}
+.s8p2-i1{
+height: 28px;
+width: 210px;
+font-size: 16px;
+}
+.s8p2-i2{
+height: 28px;
+width: 210px;
+color:green;
+}
+.s8-p3{
+height: 250px;
+width: 220px;
+border: 1px gray;
+margin: 2px 4px 2px 4px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.s8p3-img{
+height: 100%;
+width: 100%;
+margin: 0;
+background-size: cover;
+object-fit: cover;
+display: block;
+}
+.s8p3-i1{
+height: 28px;
+width: 210px;
+font-size: 16px;
+}
+.s8p3-i2{
+height: 28px;
+width: 210px;
+color:green;
+}
+.s8-p4{
+height: 250px;
+width: 220px;
+border: 1px gray; 
+margin: 0 4px 4px 4px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.s8p4-img{
+height: 100%;
+width: 100%;
+margin: 0;
+background-size: cover;
+object-fit: cover;
+display: block;
+}
+.s8p4-i1{
+height: 28px;
+width: 210px;
+font-size: 16px;
+}
+.s8p4-i2{
+height: 28px;
+width: 210px;
+color:green;
+}
+.s8-b2{
+height: 600px;
+width: 800px;
+margin: 0 10px 10px 10px;
+position: absolute;
+right: 0;
+}
+.s8-img{
+height: 100%;
+max-width: 100%;
+margin: auto;
+display: flex;
+justify-content: center;
+background-repeat: no-repeat;
+object-fit: cover;
+}
+.sec-9-container{
+margin:12px 12px 14px 10px; 
+height: 210px;
+background-color: white;
+}
+.sec-9-box{
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 1320px;
+height: 208px;
+}
+.sc1-9{
+width: 426px;
+height: 208px;
+margin: auto;
+background-image: url('https://rukminim2.flixcart.com/fk-p-flap/520/280/image/9ce5bdde19f341cc.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+}
+.sc2-9{
+width: 426px;
+height: 208px;
+margin: auto;
+background-image: url('https://rukminim2.flixcart.com/fk-p-flap/520/280/image/474fc130dd66ef5c.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+}
+.sc3-9{
+width: 426px;
+height: 208px;
+margin: auto;
+background-image: url('https://rukminim2.flixcart.com/fk-p-flap/520/280/image/99afb9d82d2bf54c.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+right: 0;
+}
+.sec-10-container{
+    margin:12px 12px 14px 10px; 
+    height: 210px;
+    background-color: white;
+    }
+    .sec-10-box{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1320px;
+    height: 208px;
+    }
+    .sc1-10{
+    width: 426px;
+    height: 208px;
+    margin: auto;
+    background-image: url('https://rukminim2.flixcart.com/fk-p-flap/520/280/image/7bf9ce1e072ed503.jpg?q=20');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+    }
+    .sc2-10{
+    width: 426px;
+    height: 208px;
+    margin: auto;
+    background-image: url('https://rukminim2.flixcart.com/fk-p-flap/520/280/image/d180e50dc0bf8616.jpg?q=20');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+    }
+    .sc3-10{
+    width: 426px;
+    height: 208px;
+    margin: auto;
+    background-image: url('https://rukminim2.flixcart.com/fk-p-flap/520/280/image/eb0b01364059e5d8.jpg?q=20');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+    }
+    .sec-11-container{
+    margin:12px 12px 14px 10px; 
+    height: 210px;
+    background-color: white;
+    }
+    .sec-11-box{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1320px;
+    height: 208px;
+    }
+    .sc1-11{
+    width: 426px;
+    height: 208px;
+    margin: auto;
+    background-image: url('https://rukminim2.flixcart.com/fk-p-flap/520/280/image/2823e0a99864d91c.jpg?q=20');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+    }
+.sc2-11{
+width: 426px;
+height: 208px;
+margin: auto;
+background-image: url('https://rukminim2.flixcart.com/fk-p-flap/520/280/image/8b1becb7b6ef3355.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+}
+.sc3-11{
+width: 426px;
+height: 208px;
+margin: auto;
+background-image: url('https://rukminim2.flixcart.com/fk-p-flap/520/280/image/9fee768982ad64cd.jpg?q=20');
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+object-fit: cover;
+cursor: pointer;
+}
+.sec-12-container{
+    margin: 12px 12px 0 10px;
+    height: 340px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .sec-12-nav{
+    margin: 2px 8px 8px 8px;
+    height: 50px;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .sec-12-left{
+    height: 45px;
+    width: 1300px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: white;
+    }
+    .sec-12header{
+    margin: 0 0 0 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    }
+    .sec12-box{
+    height: 285px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+    .s12-1{
+     width: 422px;
+     height: 283px;
+     margin: 0 4px 0 4px;
+     background-image: url('https://rukminim2.flixcart.com/fk-p-flap/450/280/image/1e6348bf3135a86e.jpeg?q=20');
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: block;
+     object-fit: cover;
+     cursor: pointer;
+     }
+    .s12-2{
+    width: 422px;
+    height: 283px;
+    margin: 0 4px 0 4px;
+    background-image: url('https://rukminim2.flixcart.com/fk-p-flap/450/280/image/b9048a452e457250.jpeg?q=20');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+    }
+    .s12-3{
+    width: 422px;
+    height: 283px;
+    margin: 0 4px 0 4px;
+    background-image: url('	https://rukminim2.flixcart.com/fk-p-flap/450/280/image/bde8946e1353eb57.jpeg?q=20');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+    }
+.brand-directory{
+height: 180px;
+width: 100%;
+padding-top: 40px;
+margin-top: 20px;
+color: #565656; 
+background-color: #eeeeee;
+}
+.directory-header{
+padding-left: 15px;
+}
+.directorylink{
+margin-top: 15px;
+padding-left: 15px;   
+}
+.directorylink span{
+font-size: 0.9rem;
+}
+.directorylink a{
+font-size: 0.8rem;
+color: #565656; 
+}
+/* footer */
+footer{
+height: 320px;
+width: 100%;
+margin: auto;
+background-color: rgb(36, 34, 34);
+}
+.footer-top{
+height: 250px;
+width: 1330px;
+}
+.footpara{
+height: 250px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.footparainfo{
+display: flex;
+flex-direction: column;
+font-size: 0.8rem;
+font-weight: 600;
+gap: 5px;
+margin-top: 10px;
+}
+.f-head p{
+font-size: 0.8rem;
+color: #878787;
+}
+.footparainfo a{
+color: white;
+}
+.footerdiv{
+height: 170px;
+width: 1px;
+border: 1px groove #686666;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.footparainfo-2 p{
+color: white;
+font-size: 0.8rem;
+font-weight: 600;
+gap: 1px;
+margin-top: 10px;
+}
+.f-bottom{
+height: 70px;
+width: 100%;
+border-top: 1px groove #636466;
+}
+.f-btm-box{
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+color: white;
+font-size: 0.7rem;
+padding: 0px 30px;
+}
+.b-seller a{
+height:22px;
+width: 60px;
+color: white;
+}
+.b-adv a{
+height:22px;
+width: 60px;
+color: white;
+}
+.b-gift a{
+height:22px;
+width: 60px;
+color: white;
+}
+.b-help a{
+height:22px;
+width: 60px;
+color: white;
+}
+.copyright a{
+height:22px;
+width: 60px;
+color: white;
+}
+.bottom-img{
+height: 20px;
+width: 280px;
+margin: 0;
+background-position: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+}
